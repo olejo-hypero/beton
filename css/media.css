@@ -422,6 +422,9 @@
 		padding-top: 40px;
 		padding-left: 0;
 	}
+	.info-contact__link {
+		display: block;
+	}
 	.contracting-box {
 		-webkit-flex-wrap: wrap;
 		-moz-flex-wrap: wrap;
@@ -860,6 +863,9 @@
 	.info__contact {
 		padding-top: 40px;
 		padding-left: 0;
+	}
+	.info-contact__link {
+		display: block;
 	}
 	.contracting-box {
 		-webkit-flex-wrap: wrap;

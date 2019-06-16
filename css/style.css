@@ -592,6 +592,7 @@ img {
 
 .info-contact__link {
 	margin: auto;
+	display: none;
 }
 
 .info-contact__desc {
