@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="keywords" content="">
+      <title>Site</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/slick-theme.css">
+      <link rel="stylesheet" href="css/slick.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+      <link rel="shortcut icon" href="" type="image/x-icon">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/tabs_localStorage.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/jquery.maskedinput.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+      <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+      </head>
+      <body>
+            <header class="header">
+                  <div class="container">
+                        <div class="header__wrap">
+                              <div class="logo header__logo">
+                                    <a href="/" class="logo__link">
+                                          <img src="images/logo.png" alt="Title company" class="logo__image">
+                                    </a>
+                              </div>
+                              <a href="tel:+38 (096) 161-77-77" class="info-number">
+                                    +38 (096) 161-77-77 
+                              </a>
+                              <nav class="nav header__nav">
+                                    <a href="#" class="nav__link go_to nav__link--active">О компании</a>
+                                    <a href="#contracting" class="nav__link go_to">Преимущества</a>
+                                    <a href="#slider" class="nav__link go_to">Автопарк</a>
+                                    <a href="#work" class="nav__link go_to">Доставка</a>
+                                    <a href="#objects" class="nav__link go_to">Объекты</a>
+                                    <a href="#additionally" class="nav__link go_to">Дополнительно</a>
+                              </nav>
+                        </div>
+
+                        <div class="header__btn btn-toggle">
+                              <div class="btn-toggle__line"></div>
+                        </div>
+
+                        <div class="header__mobile-menu">
+                              <a href="tel:+38 (096) 161-77-77" class="header__number">
+                                    +38 (096) 161-77-77 
+                              </a>
+                              <nav class="header__mobile-nav nav-menu">
+                                    <a href="#" class="nav-menu__link nav-menu__link--active">О компании</a>
+                                    <a href="#contracting" class="nav-menu__link go_to">Преимущества</a>
+                                    <a href="#slider" class="nav-menu__link go_to">Автопарк</a>
+                                    <a href="#work" class="nav-menu__link go_to">Доставка</a>
+                                    <a href="#objects" class="nav-menu__link go_to">Объекты</a>
+                                    <a href="#additionally" class="nav-menu__link go_to">Дополнительно</a>
+                              </nav>
+                        </div>
+                  </div>
+            </header>
+            <main>
+                  <section class="buying">
+                        <div class="buying-bg"></div>
+                        <div class="container">
+                              <div class="buying__wrap">
+                                    <div class="tabs buying__tabs">
+                                          <ul class="tabs__caption">
+                                                <li class="tabs__list active">M100</li>
+                                                <li class="tabs__list">M300</li>
+                                                <li class="tabs__list">M500</li>
+                                          </ul>
+                                          <div class="tabs__content  active">
+                                                <p class="tabs__text">
+                                                      Марка М100 пользуется популярностью в ремонтных работах
+                                                      не только из-за большого спектра применения, но также из-за
+                                                      отличных характеристик. Подойдет для мелких строительных
+                                                      работ без использования специальных
+                                                      инструментов и приспособлений.
+                                                </p>
+                                                <div class="tabs__info">
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">плотность —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">прочность —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">водонепроницаемость —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">подвижность —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">жесткость —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">морозоустойчивость —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                </div>
+                                                <div class="tabs__price">2 450,00 <span class="tabs__price--low">грн/м3</span></div>
+                                                <a class="btn tabs__btn" onclick="$('#exampleModal').arcticmodal()">Заказать доставку</a>
+                                          </div>
+                                          <div class="tabs__content">
+                                                <p class="tabs__text">
+                                                      Марка М100 пользуется популярностью в ремонтных работах
+                                                      не только из-за большого спектра применения, но также из-за
+                                                      отличных характеристик. Подойдет для мелких строительных
+                                                      работ без использования специальных
+                                                      инструментов и приспособлений.
+                                                </p>
+                                                <div class="tabs__info">
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">плотность —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">прочность —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">водонепроницаемость —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">подвижность —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">жесткость —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">морозоустойчивость —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                </div>
+                                                <div class="tabs__price">3 450,00 <span class="tabs__price--low">грн/м3</span></div>
+                                                <a href="#" class="btn tabs__btn" onclick="$('#exampleModal').arcticmodal()">Заказать доставку</a>
+                                          </div>
+                                          <div class="tabs__content">
+                                                <p class="tabs__text">
+                                                      Марка М100 пользуется популярностью в ремонтных работах
+                                                      не только из-за большого спектра применения, но также из-за
+                                                      отличных характеристик. Подойдет для мелких строительных
+                                                      работ без использования специальных
+                                                      инструментов и приспособлений.
+                                                </p>
+                                                <div class="tabs__info">
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">плотность —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">прочность —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">водонепроницаемость —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">подвижность —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">жесткость —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                      <div class="tabs__item">
+                                                            <span class="tabs__name">морозоустойчивость —</span>
+                                                            <div class="tabs__value">2370-2400 кг/м3</div>
+                                                      </div>
+                                                </div>
+                                                <div class="tabs__price">4 450,00 <span class="tabs__price--low">грн/м3</span></div>
+                                                <a href="#" class="btn tabs__btn" onclick="$('#exampleModal').arcticmodal()">Заказать доставку</a>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+                  <section class="information">
+                        <div class="container">
+                              <div class="information__wrap">
+                                    <div class="information__bar">
+                                          <div class="info-video information__video">
+                                                <img src="images/info-box.png" alt="">
+                                                <div class="info-video__play">
+                                                      <div class="info-video__icon"></div>
+                                                </div>
+                                          </div>
+                                          <div class="info-box info__box-block">
+                                                <div class="info-box__row">
+                                                      <div class="info-box__wrap">
+                                                            <div class="info-box__image">
+                                                                  <img src="images/year.png" alt="">
+                                                            </div>
+                                                            <div class="info-box__number">
+                                                                  25 245
+                                                            </div>
+                                                      </div>
+                                                      <span class="info-box__description">
+                                                            М3 бетона доставлено с 2012 года
+                                                      </span>
+                                                </div>
+                                                <div class="info-box__row">
+                                                      <div class="info-box__wrap">
+                                                            <div class="info-box__image">
+                                                                  <img src="images/ship.png" alt="">
+                                                            </div>
+                                                            <div class="info-box__number">
+                                                                  16
+                                                            </div>
+                                                      </div>
+                                                      <span class="info-box__description">
+                                                            единиц техники в автопарке
+                                                      </span>
+                                                </div>
+                                          </div>
+                                          <div class="info-box info__box-block">
+                                                <div class="info-box__row">
+                                                      <div class="info-box__wrap">
+                                                            <div class="info-box__image">
+                                                                  <img src="images/property.png" alt="">
+                                                            </div>
+                                                            <div class="info-box__number">
+                                                                  25 245
+                                                            </div>
+                                                      </div>
+                                                      <span class="info-box__description">
+                                                            М3 бетона доставлено с 2012 года
+                                                      </span>
+                                                </div>
+                                                <div class="info-box__row">
+                                                      <div class="info-box__wrap">
+                                                            <div class="info-box__image">
+                                                                  <img src="images/hospital.png" alt="">
+                                                            </div>
+                                                            <div class="info-box__number">
+                                                                  16
+                                                            </div>
+                                                      </div>
+                                                      <span class="info-box__description">
+                                                            единиц техники в автопарке
+                                                      </span>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="information__info">
+                                          <div class="info-text information__text">
+                                                <p class="info-text__paragraph">
+                                                      Надстройка нетривиальна. Отсюда естественно следует, что автоматизация дискредитирует предмет деятельности. Структурализм абстрактен. Сомнение рефлектирует естественный закон исключённого третьего.. Интеллект естественно понимает под собой интеллигибельный закон внешнего мира, открывая новые горизонт
+                                                </p>
+
+                                                <p class="info-text__paragraph">
+                                                      Структурализм абстрактен. Дедуктивный метод решительно представляет собой бабувизм. Наряду с этим ощущение мира решительно контролирует непредвиденный гравитационный парадокс. Дедуктивный метод решительно представляет собой бабувизм. Надстройка нетривиальна. Надстройка нетривиальна. Созерцани
+                                                </p>
+
+                                                <p class="info-text__paragraph">
+                                                      Дискретность амбивалентно транспонирует гравитационный парадокс. Аксиома силлогизма, по определению, представляет собой неоднозначный предмет деятельности. Сомнение рефлектирует естественный закон исключённого третьего.. Апостериори, гравитационный парадокс амбивалентно понимает под собой интеллигибельный знак.
+                                                </p>
+
+                                                <p class="info-text__paragraph">
+                                                      Дискретность амбивалент. Дискретность амбивалентно транспонирует гравитационный парадокс. Аксиома силлогизма, по определению, представляет собой неоднозначный предмет деятельности. Сомнение рефлектирует естественный закон исключённого третьего.. Апостериори, гравитационный парадокс амбивалентно понимает под собой интеллигибельный знак.
+                                                </p>
+
+                                                <p class="info-text__paragraph">
+                                                      Дискретность амбивалент. 
+                                                      Надстройка нетривиальна. Отсюда естественно следует, что автоматизация дискредитирует предмет деятельности. Структурализм абстрактен. Сомнение рефлектирует естественный закон исключённого третьего.. Интеллект естественно понимает под собой интеллигибельный закон внешнего мира, открывая новые горизонт
+                                                </p>
+
+                                                <p class="info-text__paragraph">
+                                                      Структурализм абстрактен. Дедуктивный метод решительно представляет собой бабувизм. Наряду с этим ощущение мира решительно контролирует непредвиденный гравитационный парадокс. Дедуктивный метод решительно представляет собой бабувизм. Надстройка нетривиальна. Надстройка нетривиальна. Созерцани
+                                                </p>
+
+                                                <p class="info-text__paragraph">
+                                                      Дискретность амбивалентно транспонирует гравитационный парадокс. Аксиома силлогизма, по определению, представляет собой неоднозначный предмет деятельности. Сомнение рефлектирует естественный закон исключённого третьего.. Апостериори, гравитационный парадокс амбивалентно понимает под собой интеллигибельный знак.
+                                                </p>
+
+                                                <p class="info-text__paragraph">
+                                                      Дискретность амбивалент. Дискретность амбивалентно транспонирует гравитационный парадокс. Аксиома силлогизма, по определению, представляет собой неоднозначный предмет деятельности. Сомнение рефлектирует естественный закон исключённого третьего.. Апостериори, гравитационный парадокс амбивалентно понимает под собой интеллигибельный знак.
+                                                </p>
+                                                <p class="info-text__paragraph">
+                                                      Дискретность амбивалент. Дискретность амбивалентно транспонирует гравитационный парадокс. Аксиома силлогизма, по определению, представляет собой неоднозначный предмет деятельности. Сомнение рефлектирует естественный закон исключённого третьего.. Апостериори, гравитационный парадокс амбивалентно понимает под собой интеллигибельный знак.
+                                                </p>
+                                          </div>
+                                          <div class="info-contact info__contact">
+                                                <div class="info-contact__block">
+                                                      <img src="images/mark.png" alt="" class="info-contact__image">
+                                                      <div class="info-contact__desc">Киев, ул. Белицкая 72-г, офис 1</div>
+                                                </div>
+                                                <div class="info-contact__block">
+                                                      <img src="images/contact.png" alt="" class="info-contact__image">
+                                                      <a href="tel:+38 (044) 223-74-29" class="info-contact__desc">+38 (044) 223-74-29 <span class="info-contect__free">(офис)</span></a>
+                                                </div>
+                                                <div class="info-contact__block">
+                                                      <img src="images/call.png" alt="" class="info-contact__image">
+                                                      <a href="tel:+38 (096) 161-77-77" class="info-contact__desc">+38 (096) 161-77-77 <span class="info-contact__free">(отдел продаж)</span></a>
+                                                </div>
+                                                <div class="info-contact__block">
+                                                      <img src="images/mail.png" alt="" class="info-contact__image">
+                                                      <a href="mailto:progres-company@ukr.net" class="info-contact__desc">progres-company@ukr.net</a>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+                  <section class="contracting" id="contracting">
+                        <div class="container">
+                              <div class="contracting__wrap">
+                                    <h1 class="title contracting__title">Вне конкуренции</h1>
+                                    <p class="contracting__text">
+                                          Вот тут уже нужно подумать, как правило решающим фактором для принятия решения в ту или другую сторону является скорость доставки и цена. 
+                                    </p>
+                                    <div class="contracting-box contracting__box">
+                                          <div class="contracting-box__item">
+                                                <div class="contracting-box__img-box">
+                                                      <img src="images/orion.png" alt="" class="contracting-box__img">
+                                                </div>
+                                                <div class="contracting-box__wrap">
+                                                      <div class="contracting-box__title">Лучшая цена</div>
+                                                      <p class="contracting-box__text">
+                                                            Мы сделаем Вам по самой выгодной цене даже на маленьких обьемах
+                                                      </p>
+                                                </div>
+                                          </div>
+                                          <div class="contracting-box__item">
+                                                <div class="contracting-box__img-box">
+                                                      <img src="images/shopping.png" alt="" class="contracting-box__img">
+                                                </div>
+                                                <div class="contracting-box__wrap">
+                                                      <div class="contracting-box__title">Лучшая цена</div>
+                                                      <p class="contracting-box__text">
+                                                            Мы не работаем с сомнительными подрядчиками
+                                                      </p>
+                                                </div>
+                                          </div>
+                                          <div class="contracting-box__item">
+                                                <div class="contracting-box__img-box">
+                                                      <img src="images/chemistry.png" alt="" class="contracting-box__img">
+                                                </div>
+                                                <div class="contracting-box__wrap">
+                                                      <div class="contracting-box__title">Лучшая цена</div>
+                                                      <p class="contracting-box__text">
+                                                            Обмеряет кубатуру и проверяет качество строительных смесей
+                                                      </p>
+                                                </div>
+                                          </div>
+                                          <div class="contracting-box__item">
+                                                <div class="contracting-box__img-box">
+                                                      <img src="images/thermometer.png" alt="" class="contracting-box__img">
+                                                </div>
+                                                <div class="contracting-box__wrap">
+                                                      <div class="contracting-box__title">Лучшая цена</div>
+                                                      <p class="contracting-box__text">
+                                                            Все виды бетонных смесей марки 100 - 1000 морозостойкие и гидротехнические
+                                                      </p>
+                                                </div>
+                                          </div>
+                                          <div class="contracting-box__item">
+                                                <div class="contracting-box__img-box">
+                                                      <img src="images/hos.png" alt="" class="contracting-box__img">
+                                                </div>
+                                                <div class="contracting-box__wrap">
+                                                      <div class="contracting-box__title">Лучшая цена</div>
+                                                      <p class="contracting-box__text">
+                                                            Большая сеть заводов партнеров обеспечивает самую быструю подачу бетона к Вашему объекту
+                                                      </p>
+                                                </div>
+                                          </div>
+                                          <div class="contracting-box__item">
+                                                <div class="contracting-box__img-box">
+                                                      <img src="images/t-operator.png" alt="" class="contracting-box__img">
+                                                </div>
+                                                <div class="contracting-box__wrap">
+                                                      <div class="contracting-box__title">Лучшая цена</div>
+                                                      <p class="contracting-box__text">
+                                                            Звонок, мы Вас консультируем и отправляем Ваш заказ!
+                                                      </p>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="contracting__desc">Просто заполните заявку, и наши менеджеры перезвонят Вам для уточнения заказа</div>
+                                    <form class="contract-form contracting__form form-call" id="form1" method="POST">
+                                          <div class="contract-form__block contract-form__block--name">
+                                                <label class="contract-form__label">Ваше имя*</label>
+                                                <input type="text" name="name" id="name" class="contract-form__input contract-form__input--name" placeholder="Иванов Иван Иванович">
+                                          </div>
+                                          <div class="contract-form__block contract-form__block--phone">
+                                                <label class="contract-form__label">Номер телефона*</label>
+                                                <input type="text" name="number" id="number" class="contract-form__input mask" placeholder="+380 -- --- -- --">
+                                          </div>
+                                          <div class="contract-form__block contract-form__block--email">
+                                                <label class="contract-form__label">E-mail</label>
+                                                <input type="email" name="email" id="email" class="contract-form__input contract-form__input--email" placeholder="yourmail@mailserver.com">
+                                          </div>
+                                          <input type="hidden" name="formData" value="Заявка">
+                                          <input type="submit" class="form-btn contract-form__button" value="Отправить">
+                                    </form>
+                              </div>
+                        </div>
+                  </section>
+                  <section class="slider" id="slider">
+                        <div class="slider-bg"></div>
+                        <div class="container">
+                              <div class="slider__wrap">
+                                    <div class="slider__item">
+                                          <div class="slider__left">
+                                                <div class="slider__title title title--white">Собственный автопарк</div>
+                                                <div class="slider__text-wrap">
+                                                      <p class="slider__text">
+                                                            Мы не работаем с сомнительными подрядчиками,
+                                                            тем самым гарантируем точность доставки
+                                                            грузов до минуты.
+
+                                                            Наши автомобили оснащены GPS датчиками,
+                                                            и Вы всегда сможете контролировать
+                                                            местонахождение транспорта.
+                                                      </p>
+                                                      <p class="slider__text">
+                                                            Мы не работаем с сомнительными подрядчиками,
+                                                            тем самым гарантируем точность доставки
+                                                            грузов до минуты.
+
+                                                            Наши автомобили оснащены GPS датчиками,
+                                                            и Вы всегда сможете контролировать
+                                                            местонахождение транспорта.
+                                                      </p>
+                                                </div>
+                                                <div class="slider__desc">
+                                                      Автобетоносмеситель MAN TGS 32,440
+                                                </div>
+                                          </div>
+                                          <div class="slider__right">
+                                                <img src="images/slider.png" alt="" class="slider__image">
+                                          </div>
+                                    </div>
+                                    <div class="slider__item">
+                                          <div class="slider__left">
+                                                <div class="slider__title title title--white">Собственный автопарк</div>
+                                                <div class="slider__text-wrap">
+                                                      <p class="slider__text">
+                                                            Мы не работаем с сомнительными подрядчиками,
+                                                            тем самым гарантируем точность доставки
+                                                            грузов до минуты.
+
+                                                            Наши автомобили оснащены GPS датчиками,
+                                                            и Вы всегда сможете контролировать
+                                                            местонахождение транспорта.
+                                                      </p>
+                                                      <p class="slider__text">
+                                                            Мы не работаем с сомнительными подрядчиками,
+                                                            тем самым гарантируем точность доставки
+                                                            грузов до минуты.
+
+                                                            Наши автомобили оснащены GPS датчиками,
+                                                            и Вы всегда сможете контролировать
+                                                            местонахождение транспорта.
+                                                      </p>
+                                                </div>
+                                                <div class="slider__desc">
+                                                      Автобетоносмеситель MAN TGS 32,440
+                                                </div>
+                                          </div>
+                                          <div class="slider__right">
+                                                <img src="images/slider.png" alt="" class="slider__image">
+                                          </div>
+                                    </div>
+                                    <div class="slider__item">
+                                          <div class="slider__left">
+                                                <div class="slider__title title title--white">Собственный автопарк</div>
+                                                <div class="slider__text-wrap">
+                                                      <p class="slider__text">
+                                                            Мы не работаем с сомнительными подрядчиками,
+                                                            тем самым гарантируем точность доставки
+                                                            грузов до минуты.
+
+                                                            Наши автомобили оснащены GPS датчиками,
+                                                            и Вы всегда сможете контролировать
+                                                            местонахождение транспорта.
+                                                      </p>
+                                                      <p class="slider__text">
+                                                            Мы не работаем с сомнительными подрядчиками,
+                                                            тем самым гарантируем точность доставки
+                                                            грузов до минуты.
+
+                                                            Наши автомобили оснащены GPS датчиками,
+                                                            и Вы всегда сможете контролировать
+                                                            местонахождение транспорта.
+                                                      </p>
+                                                </div>
+                                                <div class="slider__desc">
+                                                      Автобетоносмеситель MAN TGS 32,440
+                                                </div>
+                                          </div>
+                                          <div class="slider__right">
+                                                <img src="images/slider.png" alt="" class="slider__image">
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="slider__wrapper">
+                                    <div class="slider__title title title--white">Собственный автопарк</div>
+                                    <div class="slider__text-wrap">
+                                          <p class="slider__text">
+                                                Мы не работаем с сомнительными подрядчиками,
+                                                тем самым гарантируем точность доставки
+                                                грузов до минуты.
+
+                                                Наши автомобили оснащены GPS датчиками,
+                                                и Вы всегда сможете контролировать
+                                                местонахождение транспорта.
+                                          </p>
+                                          <p class="slider__text">
+                                                Мы не работаем с сомнительными подрядчиками,
+                                                тем самым гарантируем точность доставки
+                                                грузов до минуты.
+
+                                                Наши автомобили оснащены GPS датчиками,
+                                                и Вы всегда сможете контролировать
+                                                местонахождение транспорта.
+                                          </p>
+                                    </div>
+                                    <div class="slider__mobile">
+                                          <div class="slider__item">
+                                                <div class="slider__image-wrapper">
+                                                      <img src="images/slider.png" alt="" class="slider__image">
+                                                </div>
+                                                <div class="slider__desc">
+                                                      Автобетоносмеситель MAN TGS 32,440
+                                                </div>
+                                          </div>
+                                          <div class="slider__item">
+                                                <div class="slider__image-wrapper">
+                                                      <img src="images/slider.png" alt="" class="slider__image">
+                                                </div>
+                                                <div class="slider__desc">
+                                                      Автобетоносмеситель MAN TGS 32,440
+                                                </div>
+                                          </div>
+                                          <div class="slider__item">
+                                                <div class="slider__image-wrapper">
+                                                      <img src="images/slider.png" alt="" class="slider__image">
+                                                </div>
+                                                <div class="slider__desc">
+                                                      Автобетоносмеситель MAN TGS 32,440
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+                  <section class="work" id="work">
+                        <div class="container">
+                              <div class="work__wrap">
+                                    <div class="work__left">
+                                          <h1 class="title slider__title title--white">Работаем по всей Украине</h1>
+                                          <div class="work__text-wrap">
+                                                <p class="work__text">
+                                                      Стоимость доставки просчитывается индивидуальноСтоимость доставки просчитывается индивидуальноСтоимость доставки просчитывается индивидуально
+                                                </p>
+                                                <p class="work__text">
+                                                      Стоимость доставки просчитывается индивидуальноСтоимость доставки просчитывается индивидуальноСтоимость доставки просчитывается индивидуально
+                                                </p>
+                                          </div>
+                                          <div class="work__info work-info">
+                                                <div class="work-info__block">
+                                                      <img src="images/or.png" alt="" class="work-info__img">
+                                                      <div class="work-info__title">1. Вы оставляете заявку</div>
+                                                </div>
+                                                <div class="work-info__block">
+                                                      <img src="images/tel.png" alt="" class="work-info__img">
+                                                      <div class="work-info__title">2. Мы связываемся с Вами для уточнения деталей</div>
+                                                </div>
+                                                <div class="work-info__block">
+                                                      <img src="images/noun.png" alt="" class="work-info__img">
+                                                      <div class="work-info__title">3. Ваш заказ отправляется на объект</div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="work__right">
+                                          <form class="work__form form-work form-work" id="form2" method="POST">
+                                                <div class="form-work__desc">
+                                                      Заполните форму, наши менеджеры просчитают доставку Вашего заказа и перезвонят Вам для уточнения деталей
+                                                </div>
+                                                <div class="form-work__step">1. Контактная информация</div>
+                                                <div class="form-work__block form-work__block--one">
+                                                      <label class="form-work__label">Ваше имя*</label>
+                                                      <input type="text" name="name" class="form-work__input form-work__input--full" placeholder="Иванов Иван Сергеевич">
+                                                </div>
+                                                <div class="form-work__wrap">
+                                                      <div class="form-work__block form-work__block--width">
+                                                            <label class="form-work__label">Номер телефона*</label>
+                                                            <input type="text" name="number" class="form-work__input mask" placeholder="+380 -- --- -- --">
+                                                      </div>
+                                                      <div class="form-work__block form-work__block--width">
+                                                            <label class="form-work__label">E-mail*</label>
+                                                            <input type="text" name="email" class="form-work__input form-work__input--width" placeholder="yourmail@mailserver.com">
+                                                      </div>
+                                                </div>
+                                                <div class="form-work__step">2. Адрес доставки</div>
+                                                <div class="form-work__wrap">
+                                                      <div class="form-work__block form-work__block--width">
+                                                            <label class="form-work__label">Область*</label>
+                                                            <input type="text" name="adress" class="form-work__input form-work__input--width" placeholder="Киевская">
+                                                      </div>
+                                                      <div class="form-work__block form-work__block--width">
+                                                            <label class="form-work__label">Город населенный пункт</label>
+                                                            <input type="text" name="city" class="form-work__input form-work__input--width" placeholder="Киев">
+                                                      </div>
+                                                </div>
+                                                <div class="form-work__step">3. Тип бетона</div>
+                                                <div class="form-work__wrap">
+                                                      <div class="form-work__block form-work__block--width">
+                                                            <label class="form-work__label">Марка бетона из списка</label>
+                                                            <select class="form-work__select form-work__select--width" name="type">
+                                                                  <option value="hide">Р4 (осадка конуса 16-20 см)</option>
+                                                                  <option value="2" class="form-work__option">2</option>
+                                                                  <option value="3" class="form-work__option">3</option>
+                                                            </select>
+                                                      </div>
+                                                      <div class="form-work__block form-work__block--width">
+                                                            <label class="form-work__label">Объекм бетона (м3)</label>
+                                                            <input type="text" name="volume" class="form-work__input form-work__input--width" placeholder="5000">
+                                                      </div>
+                                                </div>
+                                                <input type="hidden" name="formData" value="Заявка">
+                                                <input type="submit" class="form-btn form-work__button btn-black" value="Отправить">
+                                          </form>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+                  <section class="objects" id="objects">
+                        <div class="objects__bg"></div>
+                        <div class="objects__wrap">
+                              <div class="container">
+                                    <h1 class="title objects__title title--white">Десятки завершенных объектов</h1>
+                              </div>
+                              <div class="objects__slider">
+                                    <div class="objects__item">
+                                          <img src="images/im.png" alt="" class="objects__image">
+                                          <div class="objects__subtitle">Строительство Аэропорта Харьков</div>
+                                          <ul class="objects__list">
+                                                <li class="objects__item objects__item--upper">Спецбетоны высокопрочные</li>
+                                                <li class="objects__item">Бсг Р3 B35 F200 W6</li>
+                                                <li class="objects__item">Автобетоносмеситель</li>
+                                          </ul>
+                                          <div class="objects__info">
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/year.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">160,00 м3</div>
+                                                </div>
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/win.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">12 дней</div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="objects__item">
+                                          <img src="images/im3.png" alt="" class="objects__image">
+                                          <div class="objects__subtitle">Строительство Аэропорта Харьков</div>
+                                          <ul class="objects__list">
+                                                <li class="objects__item objects__item--upper">Спецбетоны высокопрочные</li>
+                                                <li class="objects__item">Бсг Р3 B35 F200 W6</li>
+                                                <li class="objects__item">Автобетоносмеситель</li>
+                                          </ul>
+                                          <div class="objects__info">
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/year.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">160,00 м3</div>
+                                                </div>
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/win.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">12 дней</div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="objects__item">
+                                          <img src="images/im3.png" alt="" class="objects__image">
+                                          <div class="objects__subtitle">Строительство Аэропорта Харьков</div>
+                                          <ul class="objects__list">
+                                                <li class="objects__item objects__item--upper">Спецбетоны высокопрочные</li>
+                                                <li class="objects__item">Бсг Р3 B35 F200 W6</li>
+                                                <li class="objects__item">Автобетоносмеситель</li>
+                                          </ul>
+                                          <div class="objects__info">
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/year.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">160,00 м3</div>
+                                                </div>
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/win.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">12 дней</div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="objects__item">
+                                          <img src="images/im3.png" alt="" class="objects__image">
+                                          <div class="objects__subtitle">Строительство Аэропорта Харьков</div>
+                                          <ul class="objects__list">
+                                                <li class="objects__item objects__item--upper">Спецбетоны высокопрочные</li>
+                                                <li class="objects__item">Бсг Р3 B35 F200 W6</li>
+                                                <li class="objects__item">Автобетоносмеситель</li>
+                                          </ul>
+                                          <div class="objects__info">
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/year.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">160,00 м3</div>
+                                                </div>
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/win.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">12 дней</div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="objects__item">
+                                          <img src="images/im3.png" alt="" class="objects__image">
+                                          <div class="objects__subtitle">Строительство Аэропорта Харьков</div>
+                                          <ul class="objects__list">
+                                                <li class="objects__item objects__item--upper">Спецбетоны высокопрочные</li>
+                                                <li class="objects__item">Бсг Р3 B35 F200 W6</li>
+                                                <li class="objects__item">Автобетоносмеситель</li>
+                                          </ul>
+                                          <div class="objects__info">
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/year.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">160,00 м3</div>
+                                                </div>
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/win.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">12 дней</div>
+                                                </div>
+                                          </div>
+                                    </div>
+                                    <div class="objects__item">
+                                          <img src="images/im3.png" alt="" class="objects__image">
+                                          <div class="objects__subtitle">Строительство Аэропорта Харьков</div>
+                                          <ul class="objects__list">
+                                                <li class="objects__item objects__item--upper">Спецбетоны высокопрочные</li>
+                                                <li class="objects__item">Бсг Р3 B35 F200 W6</li>
+                                                <li class="objects__item">Автобетоносмеситель</li>
+                                          </ul>
+                                          <div class="objects__info">
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/year.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">160,00 м3</div>
+                                                </div>
+                                                <div class="objects__box">
+                                                      <div class="objects__img">
+                                                            <img src="images/win.png" alt="">
+                                                      </div>
+                                                      <div class="objects__number">12 дней</div>
+                                                </div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+                  <section class="partners">
+                        <div class="container">
+                              <h1 class="title partners__title title--white">Наши партнеры</h1>
+                        </div>
+                        <div class="partners__wrap">
+                              <div class="partners__slider">
+                                    <div class="partners__item">
+                                          <img src="images/cerner.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/awsopsworks.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/boinc.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/cisco.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/finastra.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/sage.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/sprinklr.png" alt="" class="partners__image">
+                                    </div>
+                                    <div class="partners__item">
+                                          <img src="images/sprinklr.png" alt="" class="partners__image">
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+                  <section class="beton">
+                        <div class="container">
+                              <div class="beton__wrap">
+                                    <h1 class="title beton__title">Бетон</h1>
+                                    <p class="beton__text">
+                                          Всем, кто занимается строительством, приходится сталкиваться с вопросом выбора бетона для закладывания фундамента, возведения стен.
+                                          Чтобы купить бетон качественный, необходимо тщательно спланировать и продумать все моменты. 
+                                    </p>
+                                    <div class="beton__box beton-info">
+                                          <div class="beton-info__article">
+                                                <div class="beton-info__title">М100 (В7.5 С8/10) П3 П4</div>
+                                                <p class="beton-info__text">
+                                                      Всем, кто занимается строительством, приходится сталкиваться с вопросом выбора бетона для закладывания фундамента, возведения стен.
+                                                      Чтобы купить бетон качественный, необходимо тщательно спланировать и продумать все моменты. 
+                                                </p>
+                                          </div>
+                                          <div class="beton-info__article">
+                                                <div class="beton-info__title">М100 (В7.5 С8/10) П3 П4</div>
+                                                <p class="beton-info__text">
+                                                      Всем, кто занимается строительством, приходится сталкиваться с вопросом выбора бетона для закладывания фундамента, возведения стен.
+                                                      Чтобы купить бетон качественный, необходимо тщательно спланировать и продумать все моменты. 
+                                                </p>
+                                          </div>
+                                          <div class="beton-info__article">
+                                                <div class="beton-info__title">М100 (В7.5 С8/10) П3 П4</div>
+                                                <p class="beton-info__text">
+                                                      Всем, кто занимается строительством, приходится сталкиваться с вопросом выбора бетона для закладывания фундамента, возведения стен.
+                                                      Чтобы купить бетон качественный, необходимо тщательно спланировать и продумать все моменты. 
+                                                </p>
+                                          </div>
+                                          <div class="beton-info__article">
+                                                <div class="beton-info__title">М100 (В7.5 С8/10) П3 П4</div>
+                                                <p class="beton-info__text">
+                                                      Всем, кто занимается строительством, приходится сталкиваться с вопросом выбора бетона для закладывания фундамента, возведения стен.
+                                                      Чтобы купить бетон качественный, необходимо тщательно спланировать и продумать все моменты. 
+                                                </p>
+                                          </div>
+                                          <div class="beton-info__article">
+                                                <div class="beton-info__title">М100 (В7.5 С8/10) П3 П4</div>
+                                                <p class="beton-info__text">
+                                                      Всем, кто занимается строительством, приходится сталкиваться с вопросом выбора бетона для закладывания фундамента, возведения стен.
+                                                      Чтобы купить бетон качественный, необходимо тщательно спланировать и продумать все моменты. 
+                                                </p>
+                                          </div>
+                                          <div class="beton-info__article">
+                                                <div class="beton-info__title">М100 (В7.5 С8/10) П3 П4</div>
+                                                <p class="beton-info__text">
+                                                      Всем, кто занимается строительством, приходится сталкиваться с вопросом выбора бетона для закладывания фундамента, возведения стен.
+                                                      Чтобы купить бетон качественный, необходимо тщательно спланировать и продумать все моменты. 
+                                                </p>
+                                          </div>
+                                    </div>
+                                    <a href="#" class="beton__button btn-black">Скачать полный прайс</a>
+                                    <div class="beton__desc">Остались вопросы? Заполните заявку, и наши менеджеры перезвонят Вам!</div>
+                                    <form class="contract-form beton__form form-call" id="form3" method="POST">
+                                          <div class="contract-form__block contract-form__block--name">
+                                                <label class="contract-form__label">Ваше имя*</label>
+                                                <input type="text" name="name" class="contract-form__input contract-form__input--name" placeholder="Иванов Иван Иванович">
+                                          </div>
+                                          <div class="contract-form__block contract-form__block--phone">
+                                                <label class="contract-form__label">Номер телефона*</label>
+                                                <input type="phone" name="number" class="contract-form__input mask" placeholder="+380 -- --- -- --">
+                                          </div>
+                                          <div class="contract-form__block contract-form__block--email">
+                                                <label class="contract-form__label">E-mail</label>
+                                                <input type="email" name="email" class="contract-form__input contract-form__input--email" placeholder="yourmail@mailserver.com">
+                                          </div>
+                                          <input type="hidden" name="formData" value="Заявка">
+                                          <input type="submit" class="contract-form__button" value="Отправить">
+                                    </form>
+                              </div>
+                        </div>
+                  </section>
+                  <section class="additionally" id="additionally">
+                        <div class="container">
+                              <h1 class="additionally__title title title--yellow">Дополнительно</h1>
+                              <div class="additionally__wrap">
+                                    <div class="additionally__block add-block">
+                                          <div class="add-block__image-wrap">
+                                                <img src="images/car.png" alt="" class="add-block__image">
+                                          </div>
+                                          <h2 class="additionally__subtitle">Услуги манипулятора</h2>
+                                          <p class="additionally__text">
+                                                Многие рабочие процессы включают в себя погрузку и разгрузку. Для выполнения этих задач, самой подходящей техникой является кран-манипулятор.
+                                          </p>
+                                          <a href="#" class="additionally__button btn">Подробнее</a>
+                                    </div>
+                                    <div class="additionally__block add-block">
+                                          <div class="add-block__image-wrap">
+                                                <img src="images/car2.png" alt="" class="add-block__image">
+                                          </div>
+                                          <h2 class="additionally__subtitle">Услуги манипулятора</h2>
+                                          <p class="additionally__text">
+                                                Многие рабочие процессы включают в себя погрузку и разгрузку. Для выполнения этих задач, самой подходящей техникой является кран-манипулятор.
+                                          </p>
+                                          <a href="#" class="additionally__button btn btn-yellow">Подробнее</a>
+                                    </div>
+                              </div>
+                        </div>
+                  </section>
+            </main>
+            <footer class="footer">
+                  <div class="container">
+                        <div class="footer__wrap">
+                              <div class="footer__left">
+                                    <div class="footer__logo logo">
+                                          <img src="images/logo-footer.png" alt="">
+                                    </div>
+                                    <div class="info-contact footer__contact">
+                                          <div class="info-contact__block">
+                                                <img src="images/mark.png" alt="" class="info-contact__image">
+                                                <div class="info-contact__desc">Киев, ул. Белицкая 72-г, офис 1 <span class="info-contact__parent">(на карте)</span></div>
+                                          </div>
+                                          <div class="info-contact__block">
+                                                <img src="images/contact.png" alt="" class="info-contact__image">
+                                                <a href="tel:+38 (044) 223-74-29" class="info-contact__desc">+38 (044) 223-74-29 <span class="info-contect__free info-contect__free--color">(офис)</span></a>
+                                          </div>
+                                          <div class="info-contact__block">
+                                                <img src="images/call.png" alt="" class="info-contact__image">
+                                                <a href="tel:+38 (096) 161-77-77" class="info-contact__desc">+38 (096) 161-77-77 <span class="info-contact__free info-contect__free--color">(отдел продаж)</span></a>
+                                          </div>
+                                          <div class="info-contact__block">
+                                                <img src="images/mail.png" alt="" class="info-contact__image">
+                                                <a href="mailto:progres-company@ukr.net" class="info-contact__desc">progres-company@ukr.net</a>
+                                          </div>
+                                          <div class="info-contact__block">
+                                                <a class="info-contact__link btn btn-yellow" onclick="$('#exampleModal').arcticmodal()">Оформить зяавку</a>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="footer__right">
+                                    <div class="footer__text">
+                                          Напишите нам, наши менеджеры просчитают доставку
+                                          Вашего заказа и перезвонят Вам для уточнения деталей
+                                    </div>
+                                    <div class="footer__form footer-form">
+                                          <form class="footer__form form-work form-phone" id="form4" method="POST">
+                                                <div class="form-work__block form-work__block--margin">
+                                                      <label class="form-work__label form-work__label--white">Ваше имя*</label>
+                                                      <input type="text" name="name" class="form-work__input form-work__input--full" placeholder="Иванов Иван Сергеевич">
+                                                </div>
+                                                <div class="form-work__wrap">
+                                                      <div class="form-work__block form-work__block--width">
+                                                            <label class="form-work__label form-work__label--white">Номер телефона*</label>
+                                                            <input type="text" name="number" class="form-work__input mask" placeholder="+380 -- --- -- --">
+                                                      </div>
+                                                      <div class="form-work__block form-work__block--width">
+                                                            <label class="form-work__label form-work__label--white">E-mail*</label>
+                                                            <input type="text" name="email" class="form-work__input form-work__input--width" placeholder="yourmail@mailserver.com">
+                                                      </div>
+                                                </div>
+                                                <div class="form-work__block form-work__block--text-area">
+                                                      <label class="form-work__label form-work__label--white">Ваще сообщение*</label>
+                                                      <textarea class="form-work__textarea" name="textarea"></textarea>
+                                                </div>
+                                                <input type="hidden" name="formData" value="Заявка">
+                                                <input type="submit" class="form-work__button btn-transparent" value="Отправить">
+                                          </form>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="footer__copyright">
+                        © 2017-2019   betonno
+                  </div>
+            </footer>
+            <div style="display: none;">
+                  <div class="box-modal" id="exampleModal">
+                        <div class="box-modal__close arcticmodal-close"></div>
+                        <form class="work__form form-work form-work" id="form2" method="POST">
+                              <div class="form-work__desc">
+                                    Заполните форму, наши менеджеры просчитают доставку Вашего заказа и перезвонят Вам для уточнения деталей
+                              </div>
+                              <div class="form-work__step">1. Контактная информация</div>
+                              <div class="form-work__block form-work__block--one">
+                                    <label class="form-work__label">Ваше имя*</label>
+                                    <input type="text" name="name" class="form-work__input form-work__input--full" placeholder="Иванов Иван Сергеевич">
+                              </div>
+                              <div class="form-work__wrap">
+                                    <div class="form-work__block form-work__block--width">
+                                          <label class="form-work__label">Номер телефона*</label>
+                                          <input type="text" name="number" class="form-work__input mask" placeholder="+380 -- --- -- --">
+                                    </div>
+                                    <div class="form-work__block form-work__block--width">
+                                          <label class="form-work__label">E-mail*</label>
+                                          <input type="text" name="email" class="form-work__input form-work__input--width" placeholder="yourmail@mailserver.com">
+                                    </div>
+                              </div>
+                              <div class="form-work__step">2. Адрес доставки</div>
+                              <div class="form-work__wrap">
+                                    <div class="form-work__block form-work__block--width">
+                                          <label class="form-work__label">Область*</label>
+                                          <input type="text" name="adress" class="form-work__input form-work__input--width" placeholder="Киевская">
+                                    </div>
+                                    <div class="form-work__block form-work__block--width">
+                                          <label class="form-work__label">Город населенный пункт</label>
+                                          <input type="text" name="city" class="form-work__input form-work__input--width" placeholder="Киев">
+                                    </div>
+                              </div>
+                              <input type="hidden" name="formData" value="Заявка">
+                              <input type="submit" class="form-btn form-work__button btn-black" value="Отправить">
+                        </form>
+                  </div>
+            </div>
+      </body>
+      </html>
