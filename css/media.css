@@ -382,6 +382,9 @@
 	.slider__wrap {
 		display: none!important;
 	}
+	.slider__wrapper {
+		display: block;
+	}
 	.information__bar {
 		-webkit-flex-wrap: wrap;
 		-moz-flex-wrap: wrap;
@@ -817,6 +820,9 @@
 	}
 	.slider__wrap {
 		display: none!important;
+	}
+	.slider__wrapper {
+		display: block;
 	}
 	.information__bar {
 		-webkit-flex-wrap: wrap;
