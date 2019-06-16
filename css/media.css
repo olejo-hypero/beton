@@ -757,7 +757,7 @@
 		text-align: left;
 	}
 	.buying, .information, .contracting, .slider, .work, .objects, .partners, .additionally {
-		padding: 50px 0!important;
+		padding: 30px 0!important;
 	}
 	main {
 		display: -webkit-flex;
@@ -931,6 +931,7 @@
 		padding-bottom: 0;
 	}
 	.title {
+		padding-bottom: 30px!important;
 		font-size: 25px;
 		line-height: 37px;
 	}
