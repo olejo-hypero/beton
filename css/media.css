@@ -230,6 +230,10 @@
 		-o-flex-wrap: wrap;
 		flex-wrap: wrap;
 	}
+	.form-work__button {
+		min-width: auto;
+		padding: 0 40px;
+	}
 	.work__left, .work__right {
 		width: 50%;
 	}
